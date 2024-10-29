@@ -1,0 +1,972 @@
+/* publish now page css */
+form {
+    background-color: rgb(213, 210, 210);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+h1 {
+    font-style: cursive;
+    color: white;
+    text-align: center;
+    color: rgb(7, 7, 86);
+
+}
+
+div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+h4 {
+    font-family: 'Rowdies', cursive;
+    color: white;
+    color: rgb(7, 7, 86);
+}
+
+
+/* publish now page css end */
+
+body {
+    font-family: 'Rowdies', cursive;
+}
+
+block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block p {
+    max-width: 600px;
+    /* Adjust the max-width as needed */
+    text-align: center;
+    margin-bottom: 20px;
+    /* Adjust the margin between paragraphs */
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+
+}
+
+h2 {
+    font-family: 'Rowdies', cursive;
+}
+
+h3 {
+    font-family: 'Rowdies', cursive;
+}
+
+
+p {
+    font-family: 'Rowdies', cursive;
+}
+
+strong {
+    font-family: 'Rowdies', cursive;
+}
+
+div {
+    font-family: 'Rowdies', cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to bottom, white, gray);
+    /* Gradient from black to dark gray */
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+#container2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* Background color for the container */
+    padding: 20px;
+    /* Add some padding for spacing */
+}
+
+#container3 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#container4 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+#container .row {
+    /* Access rows */
+}
+
+#container .row .col {
+    float: left;
+    width: 50%;
+}
+
+/* Equivalent of #column-1*/
+#container .row .col.column-1 {}
+
+/* Equivalent of #column-2 */
+#container .row .col.column-2 {}
+
+/* centering the our story part */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust this according to your layout */
+}
+
+/* centering the our story part end */
+
+
+/* for the established in 2018 part */
+.highlight {
+    font-weight: bold;
+    font-size: 1.9em;
+    /* Adjust the size as needed */
+    margin-top: 80px;
+}
+
+/* for the established in 2018 part end */
+
+
+/* bigger text for our story info start */
+.bigger-text {
+    font-size: 1.6em;
+    /* Adjust the size as needed */
+    margin-top: 10px;
+}
+
+/* bigger text for our story info end */
+
+.row {
+    display: flex;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.column-1 {
+    flex: 1;
+    background-color: gray;
+    /* Background color for the first column */
+    padding: 300px;
+    /* Add some padding for spacing */
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.column-2 {
+    flex: 1;
+    background-color: rgb(17, 17, 93);
+    /* Background color for the second column */
+    padding: 300px;
+    /* Add some padding for spacing */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+img {
+    /* Limits the image size to its container width */
+    height: auto;
+    /* Ensures the image keeps its aspect ratio */
+    /* Ensures the image behaves like a block element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    /* Ensures the image does not exceed the container height */
+
+}
+
+/* Style for the contact us section */
+.section.footer {
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* Style for the container */
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Style for the flexbox */
+.flexbox-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the gap between items */
+.gap-75>* {
+    margin-right: 75px;
+}
+
+/* Style for wrapping items */
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Style for the footer menu wrappers */
+.footer-menu-wrapper_1,
+.footer-menu-wrapper_2,
+.footer-menu-wrapper_3,
+.footer-menu-wrapper_4 {
+    flex-basis: calc(25% - 75px);
+    /* 25% width with 75px gap */
+}
+
+/* Style for the contact us title */
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the contact us links */
+.footer-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-link:hover {
+    color: orange;
+}
+
+
+/* navbar styling start */
+/* nav bar styling */
+.navBar {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+i {
+    font-size: 20px;
+}
+
+i:hover,
+a:hover {
+    color: rgb(23, 23, 158);
+    cursor: pointer;
+}
+
+.navBar nav li {
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+}
+
+
+#hamMenu {
+    visibility: hidden;
+}
+
+/* navbar styling end */
+
+.add-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*-----------------------
+----- Color Styles ------
+-------------------------*/
+
+.bg-color1 {
+    color: #fff;
+    background: #509B9E;
+}
+
+.bg-color2 {
+    color: #fff;
+    background: orange;
+}
+
+.bg-color3 {
+    color: #fff;
+    background: #334959;
+}
+
+.border-bottom-color2 {
+    border-bottom: 7px solid orange;
+}
+
+.border-top-color2 {
+    border-top: 7px solid orange;
+}
+
+.color1 .service-icon,
+.color1.service-item ul li:nth-child(2):before {
+    background: #509B9E;
+}
+
+.color1 .service-icon:after {
+    border: 3px solid #509B9E;
+}
+
+.color2 .service-icon,
+.color2.service-item ul li:nth-child(2):before {
+    background: orange;
+}
+
+.color2 .service-icon:after {
+    border: 3px solid orange;
+}
+
+.color3 .service-icon,
+.color3.service-item ul li:nth-child(2):before {
+    background: #334959;
+}
+
+.color3 .service-icon:after {
+    border: 3px solid #334959;
+}
+
+/*------------------
+----- Buttons ------
+--------------------*/
+
+.btn-color1,
+.btn-color2 {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    background: orange;
+    outline: none !important;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+}
+
+.btn-color1 {
+    background: #509B9E;
+}
+
+.btn-color1:hover,
+.btn-color2:hover {
+    color: black;
+    opacity: 0.9;
+    border-color: orange;
+}
+
+.btn-color1:focus,
+.btn-color1:active,
+.btn-color2:focus,
+.btn-color2:active {
+    color: #fff;
+}
+
+.btn-color1 .fa,
+.btn-color2 .fa {
+    margin-right: 15px;
+}
+
+#contact {
+    background-image: url('../images/bg-contact.png');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-color: white;
+}
+
+#contact-form .form-group label {
+    display: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#contact-form.no-placeholder .form-group label {
+    display: block;
+}
+
+#contact-form .controls {
+    padding: 0;
+    margin-bottom: 30px;
+    border: 1px solid burlywood;
+    border-radius: 2px;
+}
+
+#contact-form .form-control {
+    background: transparent !important;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    height: 56px;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
+    padding-left: 64px;
+    -webkit-transition: border-color .3s ease-out;
+    transition: border-color .3s ease-out;
+    border-radius: 2px;
+}
+
+#contact-form .form-group {
+    position: relative;
+}
+
+#contact-form .form-group [class*=fa] {
+    display: block;
+    width: 64px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #e5e5e5;
+    font-size: 24px;
+    line-height: 53px;
+    text-align: center;
+    font-weight: 300;
+    opacity: 0.5;
+    transition: opacity .2s ease-out;
+}
+
+#contact-form.no-placeholder .form-group [class*=fa] {
+    top: 30px;
+}
+
+#contact-form .form-control:focus+[class*=fa] {
+    opacity: 1;
+}
+
+#contact-form textarea.form-control {
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 21px;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+#contact-form .form-control:focus {
+    background: #fff;
+    border-bottom: 3px solid black;
+    outline: none;
+    box-shadow: none;
+    -webkit-transition: border-color .3s ease-in;
+    transition: border-color .3s ease-in;
+}
+
+#contact-form .error-message {
+    padding: 5px 0;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ff0000;
+    z-index: 10;
+}
+
+#contact-form .error-message:before {
+    content: "\00d7";
+    font-size: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+}
+
+/*----------------------
+----- Footer Styles ----
+------------------------*/
+
+#main-footer {
+    background: rgb(237, 183, 83);
+}
+
+#main-footer p a {
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#main-footer p {
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 transparent;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.social-links li a {
+    display: block;
+    color: #fff;
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: orange;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.social-links li a:hover {
+    color: #fff;
+    background: orange;
+}
+
+/* Book an appointment styling end */
+
+
+/* cards css start */
+.cardl {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 2px solid rgb(221, 158, 112);
+}
+
+.cardl img {
+    max-width: 75px;
+    border-radius: 100%;
+}
+
+.card__content {
+    display: flex;
+    gap: 1rem;
+}
+
+.card__content span i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.card__details p {
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.card__details h4 {
+    text-align: right;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (width < 1200px) {
+    .container {
+        gap: 3rem;
+    }
+}
+
+@media (width < 900px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container__right {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width < 750px) {
+    .container__right {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* cards css end */
+
+/* reviews color title*/
+.orange {
+    color: rgb(9, 9, 89));
+    font-style: italic;
+}
+
+body.products {
+    background-image: url(newproductspg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Optional: keeps the background fixed while scrolling */
+}
+
+/* footer css start */
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+    background: rgb(20, 20, 122);
+    position: relative;
+}
+
+.footer-cta {
+    border-bottom: 1px solid white;
+}
+
+.single-cta i {
+    color: rgb(6, 6, 72);
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+
+.cta-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cta-text span {
+    color: white;
+    font-size: 15px;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: white;
+    line-height: 28px;
+}
+
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+.facebook-bg {
+    background: #3B5998;
+}
+
+.twitter-bg {
+    background: #55ACEE;
+}
+
+.google-bg {
+    background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: white;
+}
+
+.footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+    color: rgb(5, 5, 68);
+}
+
+.footer-widget ul li a {
+    color: white;
+    text-transform: capitalize;
+}
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+}
+
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: white;
+    padding: 13px 20px;
+    border: 1px solid blue;
+    top: 0;
+}
+
+.subscribe-form button i {
+    color: blue;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
+
+.copyright-area {
+    background: white;
+    padding: 25px 0;
+}
+
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+.copyright-text p a {
+    color: rgb(7, 7, 86);
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+    color: rgb(11, 11, 91);
+}
+
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}
+
+/* footer css end */
+
+/* Style for the image container */
+.logo-container {
+    display: inline-block;
+    /* Add padding around the logo */
+    background-color: #f0f0f0;
+    /* Background color for the logo area */
+    /* Make the container round if desired */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a shadow effect */
+}
+
+/* Style for the logo image */
+.logo-container .logo {
+    height: 50px;
+    /* Adjust the size of the logo */
+    width: auto;
+    /* Maintain aspect ratio */
+    display: block;
+}
+
+/* style for quote carousel start */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, white, rgb(20, 20, 94))
+}
+
+
+/* style for quote carousel end */
+
+/* cw + sr cards css start */
+
+.card-container {
+    display: flex;
+    /* Enable flexbox */
+    justify-content: center;
+    /* Center the cards horizontally */
+    flex-wrap: wrap;
+    /* Allow wrapping to the next line if needed */
+    gap: 20px;
+    /* Space between cards */
+    padding: 20px;
+    /* Optional padding around the container */
+}
+
+
+.card {
+    width: 18rem;
+    /* Set card width */
+    border: 1px solid #ddd;
+    /* Light border */
+    border-radius: 0.5rem;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    overflow: hidden;
+    /* Ensure child elements don’t overflow */
+    background-color: #fff;
+    /* White background */
+    margin: 10px;
+    /* Optional margin for cards */
+
+}
+
+.card-body {
+    padding: 1rem;
+    /* Padding inside the card */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* Title size */
+    margin-bottom: 0.5rem;
+    /* Spacing below title */
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    /* Subtitle size */
+    color: #6c757d;
+    /* Secondary text color */
+    margin-bottom: 1rem;
+    /* Spacing below subtitle */
+}
+
+.card-text {
+    font-size: 0.875rem;
+    /* Body text size */
+    margin-bottom: 1rem;
+    /* Spacing below text */
+    color: #212529;
+    /* Primary text color */
+}
+
+.card-link {
+    display: inline-block;
+    /* Make links inline-block */
+    margin-right: 1rem;
+    /* Space between links */
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.card-link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+
+/* cw + sr cards css end */
+
+
+.block {
+    background-color: rgb(215, 214, 214);
+    color: rgb(10, 10, 108);
+    padding: 10%;
+
+}
+
+.h5 {
+    text-align: center;
+    color: white;
+
+
+}
